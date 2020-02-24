@@ -227,6 +227,26 @@ margin-top: 50px;
     margin-left: 16px;
 }
 
+.btn-close {
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    right: 21px;
+    top: 15px;
+    font-size: 35px;
+    color: #6e7ea9;
+    opacity: 0.2;
+    transition: 0.3;
+}
+
+.btn-close:hover {
+    opacity: 1;
+}
+
+.btn-close:focus {
+    outline: none;
+} 
+
 .modal {
     display: none;
     position: fixed;
@@ -242,7 +262,6 @@ margin-top: 50px;
     padding: 30px 15px 45px 15px;
     box-shadow: 0 5px 6px #f4f4f4;
     border-radius: 10px;
-    width: 100%;
 }
 
 .list-company {
@@ -1167,6 +1186,25 @@ background-image: url(../img/bg-form.png);
 .footer {
     background-color: #192b59;
     padding: 5px 0 4px 0;
+}
+
+@media (max-width: 1420px) {
+    .screen-img {
+        background-size: cover;
+        width: 700px;
+        height: 579px;
+        top: 258px;
+    }
+         .video-app img {
+         width: 482px;
+     }
+    .video-app {
+    top: -23px;
+    right: 0;
+    }
+}
+@media (max-width: 1500px) {
+
 }
 
 @media (max-width: 1090px) {
