@@ -146,12 +146,14 @@ margin-top: 50px;
 }
 
 .btn-menu {
+    cursor: pointer;
     border:none;
     display:none;
     background-color: transparent;
 }
 
 .btn-menu {
+    cursor: pointer;
     outline:none;
 }
 .btn-menu svg {
@@ -161,6 +163,7 @@ margin-top: 50px;
 }
 
 .btn-primary { 
+    cursor: pointer;
     color: #fff;
     font-size: 12px;
     letter-spacing: 2.5px;
@@ -179,6 +182,7 @@ margin-top: 50px;
 }
 
 .btn-secondary { 
+    cursor: pointer;
     color: #7e8bae;
     text-transform: uppercase;
     letter-spacing: 2.5px;
@@ -196,12 +200,14 @@ margin-top: 50px;
 }
 
 .btn-free {
-    font-weight: 400;
+    cursor: pointer;
+    font-weight: 600;
     padding: 21px 56px;
     letter-spacing: 1.7px;
    
 }
 .btn-info {
+    cursor: pointer;
     color: #8085b1;
     font-size: 12px;
     letter-spacing: 2.7px;
@@ -229,6 +235,7 @@ margin-top: 50px;
 }
 
 .btn-close {
+    cursor: pointer;
     border: none;
     background-color: transparent;
     position: absolute;
@@ -819,6 +826,7 @@ box-sizing: border-box;
 
 
 .box-team-item .btn-team {
+    cursor: pointer;
     background-color: #f4f4f4;
     border-radius: 100%;
     display: flex;
@@ -1166,6 +1174,8 @@ outline: none;
      z-index: -1;
  }
 
+
+
 .page-clients .title-40, .page-team .title-40  {
     color: #fff;
 }
@@ -1179,7 +1189,7 @@ text-align: center;
 background-image: url(../img/bg-team.png);
  background-position: center;
  background-repeat: no-repeat;
- padding: 170px 0 121px 0;
+ padding:170px 0 62px 0;
 }
 
 .page-form { 
@@ -1258,9 +1268,6 @@ h1 {
 
 .box-header {
     margin-bottom: 100px;
-}
-.page-header {
-
 }
 
 }
